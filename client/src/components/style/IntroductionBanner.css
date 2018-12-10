@@ -1,0 +1,166 @@
+@import "./STATIC_COLORS.CSS";
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: white !important;
+    border-radius: 0.3rem;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+
+.logo_div {
+  margin-bottom: 0;
+}
+
+.logo_img {
+  /* height: 64px;
+  width : 64px; */
+}
+
+@media (max-width: 900px) {
+  .moon {
+    display: none;
+  }
+
+  .moon-2 {
+    display: none;
+  }
+
+  .moon-3 {
+    display: none;
+  }
+
+  .moon-4 {
+    display: none;
+  }
+
+}
+
+.animated-header:before {
+  animation: show-background 60s .5s cubic-bezier(0,1,.5,1) forwards;
+  background-size: cover;
+  content: "";
+  opacity: 0;
+  height: 125vh;
+  position: relative;
+  left: -10%;
+  top: -10%;
+  width: 125vw;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #aaa;
+  font-size: 48px;
+  display: none;
+}
+
+.js-loading .loading {
+  display: block;
+}
+
+.lead {
+  font-style: oblique;
+}
+
+.container, #about {
+  z-index: 130;
+}
+
+/* Rotating Food CSS */
+
+#p-t-3 {
+  z-index: -1;
+}
+
+.moon-container {
+  z-index: -1;
+}
+
+.moon {
+  animation: spin 11s linear infinite;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: calc(40% - 200px);
+  left: calc(50% - 200px);
+  transform-origin: 200px 200px;
+}
+
+.moon-2 {
+  animation: spin 14s linear infinite;
+  width: 25px;
+  height: 25px;
+  position: relative;
+    top: calc(40% - 200px);
+    left: calc(50% - 200px);
+  transform-origin: 200px 200px;
+
+}
+
+.moon-3 {
+  animation: spin 13s linear infinite;
+  width: 25px;
+  height: 25px;
+  position: relative;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+  transform-origin: 200px 200px;
+
+}
+
+.moon-4 {
+  animation: spin 15s linear infinite;
+  width: 20px;
+  height: 20px;
+  position: relative;
+    top: calc(40% - 200px);
+    left: calc(50% - 200px);
+  transform-origin: 200px 200px;
+}
+
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(0deg);}
+100% { -webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin {
+0% { -moz-transform: rotate(0deg);}
+100% { -moz-transform: rotate(360deg);}
+}
+@-o-keyframes spin {
+0% { -o-transform: rotate(0deg);}
+100% { -o-transform: rotate(360deg);}
+}
+
+@-ms-keyframes spin {
+0% { -ms-transform: rotate(0deg);}
+100% { -ms-transform: rotate(360deg);}
+}
+@-keyframes spin {
+0% { transform: rotate(0deg);}
+100% { transform: rotate(360deg);}
+}
+
+.footer {
+  position: fixed;
+  font-size:0.25em;
+  background-color: #FF0000;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+p.footer-text {
+  color: white;
+  margin-bottom: 0em;
+}
+
+a.icon-link {
+  color: white;
+}

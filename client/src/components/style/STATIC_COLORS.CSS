@@ -1,0 +1,20 @@
+:root {
+		/* Primary Colors - Add any colors here that are used in more than one place */
+		--PRIMARY_COLOR: #EB4511;
+		--SECONDARY_COLOR : #8EB1C7;
+		--TERTIARY_COLOR : #C1BFB5;
+		--QUANDARY_COLOR : #EFD52D;
+		--QUATERNARY_COLOR : #82C4FF;
+		--OTHER_PRIMARY_COLOR : #ff0000;
+		--OTHER_SECONDARY_COLOR : #ff7d26;
+		/* COLORING FOR TEXT */
+		--TEXT_COLOR_PRIMARY : #FFFFFF;
+		--TEXT_COLOR_ACTIVE : #bc000f;
+		--TEXT_COLOR_WHITE : #FFFFFF;
+		/* Coloring for restaurantorders Components */
+		--ORDER_BOX_COLOR : #5D82A3; /* Light Blue/Grey */
+		/* Warning Colors */
+		--WARNING_COLOR : #4180e0;
+		--WARNING_COLOR_HOVER : #415be0;
+
+}

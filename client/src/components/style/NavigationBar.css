@@ -1,0 +1,49 @@
+@import "./STATIC_COLORS.CSS";
+
+.NavigationLink {
+	color : var(--TEXT_COLOR_PRIMARY) !important;
+}
+
+.NavigationLink:hover {
+	color : black !important;
+	text-decoration: none;
+}
+
+ul.NavigationUl {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: 'black';
+		position: -webkit-sticky; /* Safari */
+		position: sticky;
+		top: 0;
+}
+
+li {
+		float: left;
+}
+
+li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+}
+
+li a:hover {
+		background-color: 'black';
+}
+
+
+/* Classes */
+.right-nav {
+	float: right;
+}
+
+/* To remove weird black space between Navigation and IntroductionBanner */
+.NavigationDiv {
+	margin-bottom: 50px;
+	background-color: var(--PRIMARY_COLOR);
+}
