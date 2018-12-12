@@ -75,7 +75,7 @@ class MyApp < Sinatra::Base
       end
     end
 
-    post '/classify-text/' do
+    options '/classify-text/' do
       begin
         data = File.read("classifier.dat")
         trained_classifier = Marshal.load data
@@ -89,11 +89,10 @@ class MyApp < Sinatra::Base
     end
 
   end
-
-  # $0 is the executed file
-  # __FILE__ is the current file
-  run! if __FILE__ == $0
-
+    # $0 is the executed file
+    # __FILE__ is the current file
+    run! if __FILE__ == $0
+  end
 end
 
 # Sets the name space for our api so we can version control in the future
